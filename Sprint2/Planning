@@ -1,0 +1,7 @@
+Pour ce deuxieme sprint, nous allons focus sur l'ajout d'un biens immobilier et sur les fonctionnalité autour de ceci.
+Nous allons isoler la création et visualisation d'un biens
+
+Listes des taches à réaliser pendant ce sprint dans l'ordre de réalisation :
+- En tant que conseiller, je veux créer un nouveau bien afin d'améliorer sa visibilité (Compléxité 5/10)
+- En tant que visiteur, je veux visualiser les détails d'un bien afin de le découvrir (Compléxité 5/10)
+- En tant que visiteur, je veux faire une proposition afin d'acheter un bien (Compléxité 3/10)
