@@ -1,0 +1,20 @@
+On est à la fin du sprint, toutes les taches plannifié on pu etre réalisé.
+
+Récapitulatif des taches réalisé pendant ce sprint :
+
+
+Listes des taches à réaliser pendant ce sprint dans l'ordre de réalisation :
+- En tant qu'administrateur je veux créer de nouveaux utilisateurs (Compléxité : 3/10 découpage: 2/10)
+    - La création de la base de données à étais réalisé sans problemes.
+    - Le backoffice est prêt.
+
+- En tant qu'administrateur, je veux attribuer un rôle à un utilisateur (Compléxité : 1/10 découpage: 1/10)
+    - L'assignation des roles est fonctionnels dans le backoffice
+
+- En tant que conseiller, je veux pouvoir me connecter à mon espace sécurisé (Compléxité : 3/10 découpage: 4/10)
+    - Le conseiller peut se connecter
+    - La mise en place de la double authentification à étais plus complexe que prévue
+
+- En tant que vendeur, je veux choisir un mot de passe afin d'accéder à mon espace personnel (Compléxité : 4/10 découpage: 2/10)
+    - L'envoie de mail à étais réalisé comme prévue.
+    - Le vendeur peut choisir un nouveau mot de passe.

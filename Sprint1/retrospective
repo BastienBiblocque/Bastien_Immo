@@ -1,0 +1,7 @@
+Sur ce sprint, j'ai réalisé des fonctionalité que je maitrisé déja comme la création du backoffice et de la base de données.
+
+En revanche, j'ai pu apprendre la mise en place la double authentification pour une connexion sécurisé pour que le conseiller et les autres utilisateurs accede à cette espace.
+
+J'ai également aimé la mise en place du service d'email qui nous serras utile tout le long du projet.
+
+Pour finir je penses qu'il faudrais eviter de d'obliger l'utilisateur à créer un mot de passe, et en généré un par defaut et proposer à l'utilsateur d'en créer un nouveau personalisé par la suite
