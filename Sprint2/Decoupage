@@ -1,0 +1,23 @@
+Pour le découpage, nous allons analysé les etapes du planning :
+
+- En tant que conseiller, je veux créer un nouveau bien afin d'améliorer sa visibilité (Compléxité 5/10)
+
+* Ajout dans la base de données d'une table 'biens' pour répertorier les informations
+* stockage des images sur un serveur 
+
+* Vue dans le backoffice pour qu'un conseiller ajoute une tache
+* Formulaire dans le backoffice pour l'ajout
+* Pouvoir ajouter et modifier des photos, et en changer l'ordre
+* Formulaire de modification d'un biens
+
+- En tant que visiteur, je veux visualiser les détails d'un bien afin de le découvrir (Compléxité 5/10)
+
+* Création d'une vue sur le site principale afin de visualiser des biens et en voir toutes les informations
+* Récuperer toutes les informations de la base de données afin des les affichers sur la pages
+
+- En tant que visiteur, je veux faire une proposition afin d'acheter un bien (Compléxité 3/10)
+
+* Ajout d'une table 'demande' dans la base de données pour stocker les propositions d'achats des utilisateurs
+    - On va garder l'ID utilisateurs, la date, le biens en question, le prix.
+* Ajout d'un bouton sur la vue visiteurs afin de créer une demande avec un formulaire pour formuluer sa demande
+* On envoie un mail au conseiller en liens avec le biens afin de l'informer d'une nouvelle proposition d'achats sur un de ses biens, on lui transmetteras dans ce mail les informations pratique du client (Nom, Prénom, téléphone etc...)
