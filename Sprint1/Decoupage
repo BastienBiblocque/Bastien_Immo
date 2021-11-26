@@ -1,0 +1,24 @@
+Pour le découpage, nous allons analysé les etapes du planning :
+
+- En tant qu'administrateur je veux créer de nouveaux utilisateurs (Compléxité : 3/10 découpage: 2/10)
+    - Il faut créer une base de données pour stocker les informations des nouveaux utilisateurs : (difficulté : 1/10)
+        -(Nom, prénom, mail, mot de passe, role) 
+    - Il faut donc créer un backoffice afin de pouvoir créer des utilisateurs dans la base de données en tant qu'administrateur. (difficulté : 3/10)
+
+- En tant qu'administrateur, je veux attribuer un rôle à un utilisateur (Compléxité : 1/10 découpage: 1/10)
+    - Une fois la BDD créer il faut pouvoir ajouter cette fonctionalité au backoffice, il faut donc pouvoir ajouter un role à un utilisateur et pouvoir le modifier en cas de besoin via des selects sur le backoffice.(difficulté : 1/10)
+
+- En tant que vendeur, je veux choisir un mot de passe afin d'accéder à mon espace personnel (Compléxité : 4/10 découpage: 2/10)
+    - À la création d'un compte vendeur, on envoie un mail au profil créer afin de pouvoir acceder à une page sécurisé pour créer un nouveau mot de passe avec des critères de sécurité.
+        - La difficulté de ce sprint va etre de réalisé le service d'envoie de mail et généré un liens unique pour lié le mail et l'utilisateurs au nouveau mot de passe (difficulté : 4/10)
+    - Ce nouveau mot de passe est hashé et stocker dans la base de données(difficulté : 1/10)
+
+
+- En tant que conseiller, je veux pouvoir me connecter à mon espace sécurisé (Compléxité :3/10 découpage: 4/10)
+    - Les différents profil sont créer, on va pouvoir maintenant se connecter et pouvoir les utiliser
+    - Il faut donc créer une login page adapté au conseiller afin qu'il puisse acceder à leurs futur espace de travail sécurisé
+    (difficulté : 1/10)
+    - On va implementer un systeme de sécurité à deux facteurs via un service tiers. (difficulté :5/10)
+
+
+

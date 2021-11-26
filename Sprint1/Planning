@@ -1,0 +1,14 @@
+Pour ce premier sprint, nous allons sélectionner les taches à réaliser.
+L'objectif va etre de réaliser un produit fonctionnel minimal le plus rapidement possible.
+Nous allons donc isoler les fonctionnalité primaire auquel notre site devras répondre.
+
+Pour commencer nous allons commencer par réalisé les fonctionnalité de gestions de differents utilisateur à savoir : Conseiller, Admin, Vendeur, Visiteur, et Acheteurs
+
+Listes des taches à réaliser pendant ce sprint dans l'ordre de réalisation :
+- En tant qu'administrateur je veux créer de nouveaux utilisateurs (Compléxité : 3/10 découpage: 2/10)  
+- En tant qu'administrateur, je veux attribuer un rôle à un utilisateur (Compléxité : 1/10 découpage: 1/10)
+- En tant que vendeur, je veux choisir un mot de passe afin d'accéder à mon espace personnel (Compléxité : 4/10 découpage: 2/10)
+- En tant que conseiller, je veux pouvoir me connecter à mon espace sécurisé (Compléxité : 3/10 découpage: 4/10)
+
+Spécification : 
+    - Pour le moment, seul l'admin peut créer de nouveau compte, c'est à la création du compte que l'utilisateur recevras un e-mail.
